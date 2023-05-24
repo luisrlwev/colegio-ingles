@@ -1,0 +1,161 @@
+::selection {
+    background-color: #002285;
+    color: #fff
+}
+
+::-moz-selection {
+    background-color: #002285;
+    color: #fff
+}
+
+.nuevo-amarillo {
+    background-color: #ffe230
+}
+
+.nuevo-naranja {
+    background-color: #ff6228
+}
+
+.nuevo-azul {
+    background-color: #1b9cd9
+}
+
+.nuevo-azul-marino {
+    background-color: #010c4d
+}
+
+.nuevo-azul-claro {
+    background-color: #aeede8
+}
+
+#slider {
+    top: 70% !important
+}
+
+.tour-virtual {
+    width: 100%;
+    height: 500px
+}
+
+@media(max-width:768px) {
+    .oferta-escritorio {
+        display: none
+    }
+
+    .iconos-contacto {
+        width: 20%
+    }
+
+    .ls-wrapper p {
+        font-size: 12px !important
+    }
+
+    .span-coronavirus {
+        width: 52px !important;
+        height: 13px !important
+    }
+
+    .close-pop-up-coronavirus {
+        font-size: 12px !important
+    }
+
+    .div-coronavirus {
+        height: 65px !important;
+        background-size: 100%;
+        background-repeat: no-repeat
+    }
+}
+
+@media(min-width:768px) {
+    .oferta-movil {
+        display: none
+    }
+}
+
+.whats {
+    position: fixed;
+    right: 15px;
+    bottom: 95px;
+    width: 80px;
+    z-index: 97
+}
+
+.whats img {
+    width: 100%;
+    height: auto
+}
+
+.ls-layer {
+    font-family: Capriola, sans-serif !important
+}
+
+.card {
+    border: 0 !important
+}
+
+.text-color {
+    color: #000;
+    font-family: "Cera Pro", sans-serif !important
+}
+
+.logo-principal {
+    width: auto;
+    height: 48px
+}
+
+.text-12 {
+    font-size: 12px !important
+}
+
+.video-responsive {
+    width: 100%;
+    height: auto;
+    border: 7px solid #002285;
+    border-radius: 5px
+}
+
+.oferta-texto-1 {
+    color: #fff;
+    font-size: 22px !important
+}
+
+.oferta-texto-3 {
+    color: #fff;
+    font-size: 31px !important
+}
+
+.texto-lista {
+    color: #fff;
+    font-size: 22px !important;
+    padding-left: 33px !important
+}
+
+ul {
+    list-style-type: disc
+}
+
+ul li::marker {
+    color: #fee164 !important
+}
+
+.fondo-lista {
+    background-color: #1387ce;
+    border-radius: 22px
+}
+
+.text-oferta-responsive {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4
+}
+
+.text-oferta-responsive-2 {
+    color: #fff;
+    font-size: 27px
+}
+
+.texto-lista-responsive {
+    color: #fff;
+    font-size: 16px !important;
+    padding-left: 33px !important
+}
